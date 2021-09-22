@@ -1,0 +1,44 @@
+Universal Design System the Ember Way
+
+Hi everyone, my name is chris manson and I will be your speaker this evening.
+
+I have to say this is a bit of a strange experience being in front of people speaking again, the last time I was preparing myself for this was when I was prepping my talk for EmberConf 2020 and instead I needed to setup a micro recoding studio in a white void.
+
+pic of me in the void
+
+But it's good to be back, even if we need to be at a distance.
+
+anyway, the reason I'm here is to talk to you all about using Ember to bulid a universal design system. It's probably a good idea to start off talking about what a design system actually is (or really define what it's going to be for the next 20 mins while you're listening to me) and then I'll eplain what I mean by a universal design system and why you would do something so silly as to build that in Embere.
+
+So, since I can do this with a real audience I'm going to do it! How many people here know what I mean by a design system? ok great that is a good number of hands up! Now how many of you would say that a design system isn't a design system if it doesn't provide you ready made components to use in your applications?
+
+So let's go through some examples of design system to see if we could come up with some sort of devinition of a design system. So let's go through some definitions of deesign systems:
+
+> A design system is a complete set of standards intended to manage design at scale ... <cite>https://www.nngroup.com/articles/design-systems-101/</cite>
+
+> a design system is a collection of documents, articles, examples, code snippets, screenshots, design guidelines, components, philosophies and other digital assets for a product design company <cite>https://designerup.co/blog/10-best-design-systems-and-how-to-learn-and-steal-from-them/</cite>
+
+> A Design System is a systematic approach to product development — complete with guidelines, principles, philosophies, and code <cite>https://rangle.io/blog/what-is-a-design-system/</cite>
+
+I like that last one the best. They also have another paragraph on that same blog that neatly brings us to our next point:
+
+> There's a common misconception that a Design System is just a Style Guide or a Component Library, terms people often use interchangeably. However, in our opinion, those are both sub-components of a Design System.
+
+Who here thought of a componant library when I asked about design systems? And by component library I mean something like storybook that neatly lays out all of your components and might even document how to use each component, but doesn't actually give you a narative on how to think about your design and help you approach the problem.
+
+(find somewhere to put this next bit)
+
+> there were now multiple sources of truth — in design tools, in code and sometimes in documentation <cite>https://rangle.io/blog/what-is-a-design-system/</cite>
+
+The system that I'm hoping to show you should reduce part of this problem
+
+(end find place)
+
+
+I did a quick search online and I couldn't find anyone claiming to be the Smallest Design System, so I made it! tinydesignsystem.com is live and is now officially the smallest public design system in the world. No it's not in progress, it's totally finished and yes that's all it says "Use only HTML with no CSS styling". You might think that's not good enough to qualify as a design system
+
+This is the first continuium that I will be talking about today. I couldn't come up with a punchy name for this continuium so feel free to tweet at me your suggestions. Essentially on the left hand side we have a bunch of notes and suggestions on how to design things, maybe even some pictures showing you dos and don'ts when building things for your app. on the right hand side you get a drag and drop website builder where you need to make zero decisions and just use thee building blocks that you have been given.
+
+TODO maybe some examples of both?
+
+There is anotehr continuium that is quite close to that one, it's about how much documenetation there is and how much guidance there is to guide you in how to think of design. Let's call this the educational scale. On th eleft hand side you might expect the type of design system that is just one giant storybook app that has all of your components listed out with all of the possible arguments available to play with. But on the other side you might expect something like the material design documentation that tells you how to structure things together rather than leting you just fend for yourself.
