@@ -1,6 +1,6 @@
 Universal Design System the Ember Way
 
-Hi everyone, my name is chris manson and I will be your speaker this evening.
+Hi everyone, my name is chris manson and this here is one of my little side-kicks Rodney. Since I've been speaking in-person at a confernece a lot has changed in the wider world but I have also aquired 3 extra side-kicks! My pandemic pup Suzie with the good smile, and my two daughters.
 
 I have to say this is a bit of a strange experience being in front of people speaking again, the last time I was preparing myself for this was when I was prepping my talk for EmberConf 2020 and instead I needed to setup a micro recoding studio in a white void.
 
@@ -8,23 +8,95 @@ pic of me in the void
 
 But it's good to be back, even if we need to be at a distance.
 
-anyway, the reason I'm here is to talk to you all about using Ember to bulid a universal design system. It's probably a good idea to start off talking about what a design system actually is (or really define what it's going to be for the next 20 mins while you're listening to me) and then I'll eplain what I mean by a universal design system and why you would do something so silly as to build that in Embere.
+The reason I'm standing up here is to talk to you all about using Ember to bulid a universal design system. It's probably a good idea to start off talking about what a design system actually is (or really define what it's going to be for the next 20 mins while you're listening to me because I don't think I could come up with a univeresal definition) and then I'll eplain what I mean by a universal design system and why you would do something so silly as to build that in Embere.
 
-So, since I can do this with a real audience I'm going to do it! How many people here know what I mean by a design system? ok great that is a good number of hands up! Now how many of you would say that a design system isn't a design system if it doesn't provide you ready made components to use in your applications?
+So, since I can do this with a real audience I'm going to do it! How many people here know what I mean by a design system? ok great that is a good number of hands up! there are a few uncertain hands... so lets try this then: how many of you would say that a design system isn't a design system if it doesn't provide you ready made components to use in your applications? ah yes, fewer hands but as you can see it's not all agreemnet in the room.
 
-So let's go through some examples of design system to see if we could come up with some sort of devinition of a design system. So let's go through some definitions of deesign systems:
+So let's go through some examples of design system to see if we could come up with some sort of devinition of a design system. and hopefully there will be a few more certain hands up.
+
+So let's go through some definitions I found across the internet:
 
 > A design system is a complete set of standards intended to manage design at scale ... <cite>https://www.nngroup.com/articles/design-systems-101/</cite>
 
+that seems a little bit vague to me... let's see what else we have here
+
 > a design system is a collection of documents, articles, examples, code snippets, screenshots, design guidelines, components, philosophies and other digital assets for a product design company <cite>https://designerup.co/blog/10-best-design-systems-and-how-to-learn-and-steal-from-them/</cite>
+
+they were doing so well until that last line. Why should it only bee for a product design compoany!? should it be for anybody doing anything right?
+
+anyway lets try again.
 
 > A Design System is a systematic approach to product development — complete with guidelines, principles, philosophies, and code <cite>https://rangle.io/blog/what-is-a-design-system/</cite>
 
-I like that last one the best. They also have another paragraph on that same blog that neatly brings us to our next point:
+That's interesting. I like that last one the best. The word that jumps out at me from that definition is **systeematic** and I think that gets to the escense of what I think a design system is. 
 
-> There's a common misconception that a Design System is just a Style Guide or a Component Library, terms people often use interchangeably. However, in our opinion, those are both sub-components of a Design System.
+They also have another paragraph on that same blog that neatly brings us onto the next point I want to make about design systems:
 
-Who here thought of a componant library when I asked about design systems? And by component library I mean something like storybook that neatly lays out all of your components and might even document how to use each component, but doesn't actually give you a narative on how to think about your design and help you approach the problem.
+> There's a common misconception that a Design System is just a Style Guide or a Component Library [...] in our opinion, those are both sub-components of a Design System. <cite>https://rangle.io/blog/what-is-a-design-system/</cite>
+
+Who here pictured something like a componant library when I asked about design systems? And by component library I mean something like storybook that neatly lays out all of your components and if you're lucky might even document how to use each component, but doesn't actually give you a narative on how to think about your design and help you approach the problem.
+
+This is something that I strongly believe in, sure you could be given a set of componnts and some docs about their api but that doesn't teach you how to think about design for whatever it is you're building. You need a narative to get you thinking in the same way as your colleagues or the people who are working on the design itself.
+
+So let's have a look at some of the public design systems out there and see if they end up feeling like Component libraries or something more systematic.
+
+When doing my resarch on existing design systems I found a few interesting lists to look through. This one https://designsystemsrepo.com/design-systems/ is a literal A-Z of over 100 design systems! A resource that is too vast for anyone with 2 kids under two to ever make a dent on researching!
+
+Then I found https://www.designsystems.com/open-design-systems/ which seemed to give me design systems with stats on likes and downloads (but oddly no way to sort them). But there was something funny going on here, I couldn't see some of the large design systems that I know of like Material Design from Google or Polaris from Shopify. Then I look a tiny bit closer and these are only **figma** "design systems". I won't open the can of worms that is writing a "design system" in Figma right now, I'll save that for the happy hour or if anyone watching wants to chat about it hit me up on twitter.
+
+A bit more research lead me to this great blog post on "designerup" https://designerup.co/blog/10-best-design-systems-and-how-to-learn-and-steal-from-them/
+
+At least we can now limit our search a bit and focus on what these folks call the "best 10 design systems". Some of these you might have heard about already: Material design from google, Polaris from Shopify, Carbon from IBM.
+
+These design systems are all so extensive that you could speend hours digging into them, each of thme have different types of content all pointing you in different directions on how to think, but there are some comonalities. Most of them Talk about Typeography and Colours, some of them talk about Icons, and a few of them even talk about animation and illustration. This is clearly not a very exaustive list but I find it interesting to see what common themes crop up.
+
+The one thing that you will notice is that every single one of these sites are **HUGE** and contain a lot of text. You will probably have to take a university-level course to fully understand any of these in great depth instead of just dipping in and out looking for specific things. So I thought, aren't there any smaller design systems that could still be considered "comprehensive"?
+
+I did a quick search online and I couldn't find anyone claiming to be the Smallest Design System, so I made it! tinydesignsystem.com is live and is now officially the smallest public design system in the world. No it's not in progress, it's totally finished and yes that's all it says "Use only HTML with no CSS styling". what do we think? is that actually a design system? if not why not? going back to our defintion from before, it's a systematic approach to product development. if ever you feel like you want to use some styles then don't! simple yet effective.
+
+Of course this is me being facecious, I don't actually recommend trying to build the next big silocone valley startup using tiny design system. Your users might not like it and you will probably stuggle to get much investmeent. BUt it does searve as a good extreme case that helps us to think about design systems.
+
+So what if wanted to expand on this tinydesignsystem? what if we wanted to make something like, I don't know, mediumdesignsystem.com? how would we go about it? looking at the design systems examples so far we know at least onee thing is true, we need soomething that is useful for writing a lot of text. I also don't want to be thee only one writing this thing beecause, truth be told I'm not much of a designer. I want to build my intermediate design system out int he open using a tool that is specifically designed to be a simple as possible to add documentation.
+
+I think I might have a tool for that!
+
+Enter, Field Guide :tada:
+
+This is yet another Empress project, so anyone who has seen me talk before knows the drill. For anything empress you have a quick-start and a super-quick start that can get you up and running really quickly. I said that I wanted to make this more about the documenetation so I'm going to try to set this up withotu any command line because that might be a bit tricky for someone who isn't used to the modern web and command lines and build systems. Let's set it up with our Super Quick Start button.
+
+Video
+
+What you end up with is an Ember addon with a neat little docs folder that just has a bunch of markdown in it. But, this is still quite a lot of files for someone that first of all doesn't really know that we want an ember addon to use field guide... can we do any better? Can we make it a bit slimmer?
+
+Lets try this other super-secret netlify button and see what happens!
+
+Same output of a docs foldere, but what's this! where have all my ember files gone! This particular example is using a little research project of mine called bottled-ember. The goal is to make it possible to run my empress apps with as few ember-specific files in the repo as possible. I haven't been able to kill all the files, apparenetly tests/dummy/config/environment can be passed in the tests tree to ember-cli but I know there are at least 3 people at this conference that could help me fix the last few issues with it :joy:
+
+anyway I digress! now all you need ot do is write your documenetation in your docs foolder, writing using markdown with code examples as you would usually do.
+
+We should start with some introduction about the design system that we want to write, give some context about how we actually want to build our styles and the motivation of what we're doing.... but do you know what. instead of me starting from scratch here, let's use a design system that I've actually already worked on and most of the people in this room should be at least a bit familiar with some sites that make use of it! The eember styleguie
+
+photo
+
+The ember styleguide was originally written many moons ago as collection of comopnents that were common to all of the ember apps that the Ember learning team were in charge of. It then evolved to be a somewhat aspirational declaration of components that we would like to use in our apps, but thre was never a real push to make it the predominatn definition of all styles across the ember "brand". But then two things happeneed at the same time. We finally got the Ember Website Redesign RFC across the line and Ember Octane was becoming a thing! Do we all remember that? Ember octane was yet anothre upgrade for peoeple that have ebeen using Ember for a Decade but it actually represneteed something subtly different, a much easier learning curve for non-javascript developers.
+
+With Ember Octane the js file suddenly became optional, and with our amazing new angle bracket syntax you could look at an Ember tmeplate and by just squinting a little bit you could see HTML and that might feel familiar to designers that are sick of looking at JSX or strange templating systems.
+
+and if you're now thinking a little bit more HTML with attributes just working, why don't you build some of your applicaiton just using HTML or start using HTML and only split out when you need to re-use something in a component or at the last minute when you need some interativity or custom behaviour.
+
+While working on thee ember styleguide one of my favourite achivements was the "Background Shapes" concept. If you look at the documentation over there you won't see a single Ember component. This is truely HTML-first, and that doesn't mean that it needs to be declarative and dumb. If you use hte `bg-shape-boxes-bottom ` class you get this neat little spill over into the next div without having to think about it.
+
+This is how I imagine the sweet spot of design system develeopment. A set of markdown files with very little seromony around writing them. A collection of CSS since we're designing for the web here, and some html snippeets in the docs that show you exactly what they look like.
+
+but that only deals with the writing of the doc. Now that we have the perfect design system docs how do we make this **universal**?
+
+So I said that I didn't want to writ emy own design system for this talk and i would just use the ember-styleguide, but I want to show the slimmed down version. So i am using my repo that we created in with the super secret starting button and I'm going to copy across the styleguide. I have renameed the project eember-slimguide now that we have a slimmed down ember app.
+
+So far we haven't done anything special. The magic happens when we want to deploy this new thing. I'm going to deploy it to npm because that's where all the cool kids put their stuff these days. But instead of just depeloying it as an ember addon like the styleguide is already, let's make use of the one weird trick that makes your design system ember addon a usiversal one
+
+"prepublishOnly": "rm -rf dist && npm run build"
+
+
 
 (find somewhere to put this next bit)
 
@@ -33,12 +105,3 @@ Who here thought of a componant library when I asked about design systems? And b
 The system that I'm hoping to show you should reduce part of this problem
 
 (end find place)
-
-
-I did a quick search online and I couldn't find anyone claiming to be the Smallest Design System, so I made it! tinydesignsystem.com is live and is now officially the smallest public design system in the world. No it's not in progress, it's totally finished and yes that's all it says "Use only HTML with no CSS styling". You might think that's not good enough to qualify as a design system
-
-This is the first continuium that I will be talking about today. I couldn't come up with a punchy name for this continuium so feel free to tweet at me your suggestions. Essentially on the left hand side we have a bunch of notes and suggestions on how to design things, maybe even some pictures showing you dos and don'ts when building things for your app. on the right hand side you get a drag and drop website builder where you need to make zero decisions and just use thee building blocks that you have been given.
-
-TODO maybe some examples of both?
-
-There is anotehr continuium that is quite close to that one, it's about how much documenetation there is and how much guidance there is to guide you in how to think of design. Let's call this the educational scale. On th eleft hand side you might expect the type of design system that is just one giant storybook app that has all of your components listed out with all of the possible arguments available to play with. But on the other side you might expect something like the material design documentation that tells you how to structure things together rather than leting you just fend for yourself.
