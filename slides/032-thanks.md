@@ -3,6 +3,4 @@ notes: |
   Let's write some notes!
 ---
 
-# thanks
-
-This is a slide!
+# Thank you all! <!-- .element style="position: initial" -->

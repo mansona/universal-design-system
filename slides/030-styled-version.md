@@ -3,6 +3,6 @@ notes: |
   Let's write some notes!
 ---
 
-# styled version
+# Styled Version
 
-This is a slide!
+![Chris](/images/styled-demo.png)

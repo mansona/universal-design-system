@@ -3,6 +3,6 @@ notes: |
   Let's write some notes!
 ---
 
-# colour component
+# Colour Component
 
-This is a slide!
+![Chris](/images/colour-component.png)

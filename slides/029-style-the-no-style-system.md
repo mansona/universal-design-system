@@ -3,6 +3,6 @@ notes: |
   Let's write some notes!
 ---
 
-# style the no style system
+# Styles where they don't belong
 
-This is a slide!
+![Chris](/images/ember-slimguide-demo.png)

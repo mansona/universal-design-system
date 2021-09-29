@@ -3,6 +3,6 @@ notes: |
   Let's write some notes!
 ---
 
-# ember styleguide
+# Ember Styleguide
 
-This is a slide!
+![Chris](/images/ember-styleguide.png)

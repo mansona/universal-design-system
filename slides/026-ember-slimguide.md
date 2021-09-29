@@ -3,6 +3,6 @@ notes: |
   Let's write some notes!
 ---
 
-# ember slimguide
+# Ember Slim-guide
 
-This is a slide!
+<video controls autoplay loop muted playsinline style="height: 550px;" src="/images/ember-slimguide.mov"></video>

@@ -3,6 +3,6 @@ notes: |
   Let's write some notes!
 ---
 
-# writing documentation
+# "Just" writing documentation
 
-This is a slide!
+<video controls autoplay loop muted playsinline style="height: 550px;" src="/images/start-writing-docs.mov"></video>

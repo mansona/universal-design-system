@@ -5,4 +5,4 @@ notes: |
 
 # prepublish
 
-This is a slide!
+![Chris](/images/prepublish.png)
