@@ -1,0 +1,15 @@
+blockquote cite {
+  text-align: left;
+  display: block;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+blockquote cite::before {
+  content: "— ";
+}
+
+.reveal blockquote cite a {
+  font-style: initial;
+  color: grey;
+}

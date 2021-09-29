@@ -3,6 +3,8 @@ notes: |
   Let's write some notes!
 ---
 
-# using Ember to bulid a universal design system
+# Universal Design Systems,<br> the Ember Way
 
-This is a slide!
+- what is a design system
+- what is a universal design system
+- how do I get one?
