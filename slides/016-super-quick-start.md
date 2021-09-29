@@ -3,6 +3,7 @@ notes: |
   Let's write some notes!
 ---
 
-# super quick start
+# Super quick start
 
-This is a slide!
+<video controls autoplay loop muted playsinline style="height: 500px;" src="/images/super-quick-start.mov"></video>
+https://github.com/mansona/field-guide-emberfest <!-- .element style="display: block;" -->

@@ -3,6 +3,6 @@ notes: |
   Let's write some notes!
 ---
 
-# lots of files
+# Lots of files 🙈
 
-This is a slide!
+![Chris](/images/big-ember-app.png) <!-- .element style="height: 1000px; " -->
