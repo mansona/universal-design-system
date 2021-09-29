@@ -62,13 +62,13 @@ I did a quick search online and I couldn’t find anyone claiming to be the Smal
 
 Of course this is me being facecious, I don’t actually recommend trying to build the next big silocone valley startup using tiny design system. Your users might not like it and you will probably stuggle to get much investmeent. BUt it does searve as a good extreme case that helps us to think about the definition of design systems.
 
-So what if wanted to expand on this tinydesignsystem? what if we wanted to make something like, I don’t know, mediumdesignsystem.com? how would we go about it? looking at the design systems examples so far we know at least onee thing is true, we need soomething that is useful for writing a lot of text. I also don’t want to be thee only one writing this thing beecause, truth be told I’m not much of a designer. I want to build my intermediate design system out int he open using a tool that is specifically designed to be a simple as possible to add documentation.
+So what if wanted to expand on this tinydesignsystem? what if we wanted to make something like, I don’t know, mediumdesignsystem.com? how would we go about it? looking at the design systems examples so far we know at least onee thing is true, we need soomething that is useful for writing a lot of text. I also don’t want to be thee only one writing this thing beecause, truth be told I’m not much of a designer. I want to build my intermediate design system out-in-the open using a tool that is specifically designed to be a simple as possible to add documentation.
 
 I think I might have a tool for that!
 
 Enter, Field Guide :tada:
 
-This is yet another Empress project, so anyone who has seen me talk before knows the drill. For anything empress you have a quick-start and a super-quick start that can get you up and running really quickly. I said that I wanted to make this more about the documenetation so I’m going to try to set this up withotu any command line because that might be a bit tricky for someone who isn’t used to the modern web and command lines and build systems, or more specifically I don’t want lack of experience in that side of things to be a blocker to use this tool. So let’s set it up with our Super Quick Start button.
+This is yet another Empress project, so anyone who has seen me talk before knows the drill. For anything empress you have a quick-start and a super-quick start that can get you up and running really quickly. I want to make this more about the documenetation so I’m going to try to set this up withotu any command line because that might be a bit tricky for someone who isn’t used to the modern web and command lines and build systems. Or to say that a different way, I don’t want lack of experience in that side of things to be a blocker to use this tool. So let’s set it up with our Super Quick Start button.
 
 Video
 
@@ -76,7 +76,7 @@ What you end up with is an Ember addon with a neat little docs folder that just 
 
 Lets try this other super-secret netlify button and see what happens!
 
-Same output of a docs foldere, but what’s this! where have all my ember files gone! This particular example is using a little research project of mine called bottled-ember. The goal is to make it possible to run my empress apps with as few ember-specific files in the repo as possible. I haven’t been able to kill all the files, apparenetly tests/dummy/config/environment can’t be passed in the tests tree to ember-cli but I know there are at least 3 people at this conference that could help me fix the last few issues with it :joy: and I will find you, and I will question you.
+Same output of a docs foldere, but what’s this! where have all my ember files gone! This particular example is using a little research project of mine called bottled-ember. The goal is to make it possible to run my empress apps with as few ember-specific files in the repo as possible. I haven’t been able to kill all the files, apparenetly tests/dummy/config/environment can’t be passed in the tests tree to ember-cli but I know there are at least 3 people at this conference that could help me fix the last few issues with it :joy: and I will find you, and I will ask for your help.
 
 Picture of taken
 
