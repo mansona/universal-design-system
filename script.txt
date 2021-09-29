@@ -96,6 +96,8 @@ So far we haven't done anything special. The magic happens when we want to deplo
 
 "prepublishOnly": "rm -rf dist && npm run build"
 
+now when you publish your repo to npm it also compiles your css into a vendor.css in the dist/asseets folder.
+
 
 
 (find somewhere to put this next bit)
