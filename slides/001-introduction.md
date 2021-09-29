@@ -1,7 +1,6 @@
 ---
 notes:
 ---
-## Universal Design System the Ember Way
+## Universal Design Systems,<br> the Ember Way <!-- .element style="position: initial" -->
 
-![Chris](/images/chris.jpg) <!-- .element style="height: 400px" -->
-<div>Chris Manson - @real_ate</div>
+<div>Chris Manson - @real_ate</div> <!-- .element style="text-align: left" -->

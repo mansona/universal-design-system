@@ -6,10 +6,19 @@ notes: |
 
 
 ---
-# Outline
+# Who am I?
 
-- introduction to design systems
-- showing some examples of component libraries (framework specific)
-- outline HTML-first design systems (using HTML and CSS without components)
-- show how to build one of these design systems with Ember (and the documentation system I mentioned)
-- demo
+![Chris](/images/chris.jpg) <!-- .element style="height: 400px" -->
+![suzie](/images/suzie.jpg) <!-- .element class="fragment" style="height: 250px; position: absolute; left: 200px; transform: rotate(-15deg);" -->
+<video controls autoplay loop muted playsinline style="height: 500px;" src="/images/mary.mp4"></video> <!-- .element class="fragment" style="height: 200px; position: absolute; right: 200px; transform: rotate(15deg);" -->
+![lexie](/images/lexie.jpg) <!-- .element class="fragment" style="height: 200px; position: absolute; right: 200px; top: 300px; transform: rotate(-15deg);" -->
+
+<style>
+.reveal ul {
+  list-style-type: none;
+}
+</style>
+
+- https://twitter.com/real_ate
+- https://twitch.tv/real_ate
+- https://github.com/mansona 🙈
