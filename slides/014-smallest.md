@@ -3,6 +3,8 @@ notes: |
   Let's write some notes!
 ---
 
-# smallest
+# Smallest design system, in the world
 
-This is a slide!
+
+![Chris](/images/tiny-design-system.png) <!-- .element style="height: 500px; display: block; margin: 0 auto;" -->
+https://tinydesignsystem.com

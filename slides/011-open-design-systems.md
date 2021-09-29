@@ -3,6 +3,7 @@ notes: |
   Let's write some notes!
 ---
 
-# open design systems
+# "Open" design systems
 
-This is a slide!
+<video controls autoplay loop muted playsinline style="height: 500px;" src="/images/open-design-systems.mov"></video>
+https://www.designsystems.com/open-design-systems/

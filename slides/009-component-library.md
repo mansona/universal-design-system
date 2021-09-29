@@ -3,6 +3,6 @@ notes: |
   Let's write some notes!
 ---
 
-# component library
+# Component library
 
-This is a slide!
+<video controls autoplay loop muted playsinline style="height: 500px;" src="/images/component-lib.mov"></video>

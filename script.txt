@@ -44,8 +44,6 @@ I also happen to believe that the documentation should be easy for anyone to con
 
 So let’s have a look at some of the public design systems out there and see if they end up feeling like Component libraries or something more systematic.
 
-5 mins 50 seconds to here
-
 When doing my resarch on existing design systems I found a few interesting lists to look through. This one https://designsystemsrepo.com/design-systems/ is a literal A-Z of over 100 design systems! A resource that is too vast for anyone with 2 kids under two to ever make a dent on researching!
 
 Then I found https://www.designsystems.com/open-design-systems/ which seemed to give me design systems with stats on likes and downloads (but oddly no way to sort them). But there was something funny going on here, I couldn’t see some of the large design systems that I know of like Material Design from Google or Polaris from Shopify. Then I look a tiny bit closer and these are only **figma** “design systems”. I won’t open the can of worms that is writing a “design system” in Figma right now, I’ll save that for the happy hour or if anyone watching wants to chat about it hit me up on twitter.

@@ -13,3 +13,7 @@ blockquote cite::before {
   font-style: initial;
   color: grey;
 }
+
+.reveal a {
+  color: #307FEE;
+}
