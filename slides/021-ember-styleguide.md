@@ -1,6 +1,13 @@
 ---
 notes: |
-  The eember styleguie
+  - The eember styleguie
+  - already using field guide so easy to transfer to our
+  - originally collection of shared components
+  - asperational with no push
+  - 2 things at once, RFC and octane
+  - remember octane, just another update, not for non emberr and non JS
+  - JS optional. angle bracket HTML like squint
+  - markdown html
 
   photo
 

@@ -1,5 +1,11 @@
 ---
 notes: |
+  - more research
+  - limit search, has some of the big ones
+  - so extensive hours
+  - different content
+  - most Typeography, some icons, few animations illustrations
+
   A bit more research lead me to this great blog post on “designerup” https://designerup.co/blog/10-best-design-systems-and-how-to-learn-and-steal-from-them/
 
   At least we can now limit our search a bit and focus on what these folks call the “best 10 design systems”. Some of these you might have heard about already: Material design from google, Polaris from Shopify, Carbon from IBM.
