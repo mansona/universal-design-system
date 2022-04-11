@@ -10,5 +10,5 @@ notes: |
 
 # "Open" design systems
 
-<video controls data-autoplay loop muted playsinline style="height: 500px;" src="/images/open-design-systems.mov"></video>
+<video controls data-autoplay loop muted playsinline style="height: 500px;" src="/images/open-design-systems.mov.webm"></video>
 https://www.designsystems.com/open-design-systems/

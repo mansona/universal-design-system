@@ -14,4 +14,4 @@ notes: |
 
 # Ember Slim-guide
 
-<video controls data-autoplay loop muted playsinline style="height: 550px;" src="/images/ember-slimguide.mov"></video>
+<video controls data-autoplay loop muted playsinline style="height: 550px;" src="/images/ember-slimguide.mov.webm"></video>

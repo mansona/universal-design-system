@@ -16,4 +16,4 @@ notes: |
 
 # Component library
 
-<video controls data-autoplay loop muted playsinline style="height: 500px;" src="/images/component-lib.mov"></video>
+<video controls data-autoplay loop muted playsinline style="height: 500px;" src="/images/component-lib.mov.webm"></video>

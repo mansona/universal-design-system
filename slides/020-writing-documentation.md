@@ -13,4 +13,4 @@ notes: |
 
 # "Just" writing documentation
 
-<video controls data-autoplay loop muted playsinline style="height: 550px;" src="/images/start-writing-docs.mov"></video>
+<video controls data-autoplay loop muted playsinline style="height: 550px;" src="/images/start-writing-docs.mov.webm"></video>

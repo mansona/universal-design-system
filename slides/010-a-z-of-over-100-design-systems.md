@@ -5,5 +5,5 @@ notes: |
 
 # A-Z of over 100 design systems
 
-<video controls data-autoplay loop muted playsinline style="height: 500px;" src="/images/a-z-design-systems.mov"></video>
+<video controls data-autoplay loop muted playsinline style="height: 500px;" src="/images/a-z-design-systems.mov.webm"></video>
 https://designsystemsrepo.com/design-systems/
