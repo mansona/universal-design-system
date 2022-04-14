@@ -20,4 +20,4 @@ notes: |
 
 # Ember Styleguide
 
-![Chris](/images/ember-styleguide.png)
+![Chris](/images/ember-styleguide.webp)

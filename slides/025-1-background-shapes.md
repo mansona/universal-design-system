@@ -8,4 +8,4 @@ notes: |
 
 # Background Shapes
 
-![Chris](/images/bakground-shapes.png)
+![Chris](/images/bakground-shapes.webp)

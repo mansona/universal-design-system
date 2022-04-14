@@ -8,4 +8,4 @@ notes: |
 
 # Lots of files 🙈
 
-![Chris](/images/big-ember-app.png) <!-- .element style="height: 1000px; " -->
+![Chris](/images/big-ember-app.webp) <!-- .element style="height: 1000px; " -->

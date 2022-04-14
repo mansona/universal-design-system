@@ -17,4 +17,4 @@ notes: |
 
 # Background Shapes (code)
 
-![Chris](/images/background-shapes-code.png)
+![Chris](/images/background-shapes-code.webp)

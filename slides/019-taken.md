@@ -5,4 +5,4 @@ notes: |
 
 
 
-![Chris](/images/taken.jpeg)
+![Chris](/images/taken.webp)

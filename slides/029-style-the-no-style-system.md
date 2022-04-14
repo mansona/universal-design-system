@@ -5,4 +5,4 @@ notes: |
 
 # Styles where they don't belong
 
-![Chris](/images/ember-slimguide-demo.png)
+![Chris](/images/ember-slimguide-demo.webp)

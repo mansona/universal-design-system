@@ -11,4 +11,4 @@ notes: |
 
 # Colour Component
 
-![Chris](/images/colour-component.png)
+![Chris](/images/colour-component.webp)

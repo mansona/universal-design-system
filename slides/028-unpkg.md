@@ -7,4 +7,4 @@ notes: |
 
 # unpkg
 
-![Chris](/images/unpkg.png)
+![Chris](/images/unpkg.webp)

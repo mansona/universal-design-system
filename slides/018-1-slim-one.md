@@ -7,4 +7,4 @@ notes: |
 
 # Super secret super quick start
 
-![Chris](/images/super-secret.png)
+![Chris](/images/super-secret.webp)

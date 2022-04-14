@@ -7,4 +7,4 @@ notes: |
 
 # Styled Version
 
-![Chris](/images/styled-demo.png)
+![Chris](/images/styled-demo.webp)

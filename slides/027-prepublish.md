@@ -18,4 +18,4 @@ notes: |
 
 # prepublish
 
-![Chris](/images/prepublish.png)
+![Chris](/images/prepublish.webp)

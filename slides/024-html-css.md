@@ -11,4 +11,4 @@ notes: |
 
 # HTML & CSS
 
-![Chris](/images/strong-combination.jpeg)
+![Chris](/images/strong-combination.webp)

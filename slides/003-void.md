@@ -5,4 +5,4 @@ notes: |
 
 ### Coming to you from the void
 
-![Chris](/images/void.png) <!-- .element style="height: 600px" -->
+![Chris](/images/void.webp) <!-- .element style="height: 600px" -->
